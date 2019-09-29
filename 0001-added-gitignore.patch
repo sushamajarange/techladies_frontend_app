@@ -1,0 +1,55 @@
+From a472b1086cab8d0e3fc1a26edf8548e7f2816881 Mon Sep 17 00:00:00 2001
+From: Sushama Jarange <sushamajarange@gmail.com>
+Date: Sun, 29 Sep 2019 23:36:34 +0800
+Subject: [PATCH] added gitignore
+
+---
+ .gitignore | 35 +++++++++++++++++++++++++++++++++++
+ 1 file changed, 35 insertions(+)
+ create mode 100644 .gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..902e6c9
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,35 @@
++.DS_STORE
++node_modules
++scripts/flow/*/.flowconfig
++*~
++*.pyc
++.grunt
++_SpecRunner.html
++__benchmarks__
++build/
++remote-repo/
++coverage/
++.module-cache
++fixtures/dom/public/react-dom.js
++fixtures/dom/public/react.js
++test/the-files-to-test.generated.js
++*.log*
++chrome-user-data
++*.sublime-project
++*.sublime-workspace
++.idea
++*.iml
++.vscode
++*.swp
++*.swo
++
++packages/react-devtools-core/dist
++packages/react-devtools-extensions/chrome/build
++packages/react-devtools-extensions/chrome/*.crx
++packages/react-devtools-extensions/chrome/*.pem
++packages/react-devtools-extensions/firefox/build
++packages/react-devtools-extensions/firefox/*.xpi
++packages/react-devtools-extensions/firefox/*.pem
++packages/react-devtools-extensions/shared/build
++packages/react-devtools-inline/dist
++packages/react-devtools-shell/dist
+\ No newline at end of file
+-- 
+2.21.0.windows.1
+
